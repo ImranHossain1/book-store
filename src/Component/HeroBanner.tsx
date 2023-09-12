@@ -1,6 +1,6 @@
 import image from "../assets/book1.jpg";
 
-const BookBanner = () => {
+const HeroBanner = () => {
   return (
     <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24 lg:px-8 md:py-20">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
@@ -29,4 +29,4 @@ const BookBanner = () => {
   );
 };
 
-export default BookBanner;
+export default HeroBanner;
